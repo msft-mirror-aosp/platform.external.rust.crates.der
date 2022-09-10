@@ -1,0 +1,20 @@
+name: "der"
+description: "Pure Rust embedded-friendly implementation of the Distinguished Encoding Rules (DER) for Abstract Syntax Notation One (ASN.1) as described in ITU X.690."
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/der"
+  }
+  url {
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/der/der-0.6.0.crate"
+  }
+  version: "0.6.0"
+  # Dual-licensed, using the least restrictive per go/thirdpartylicenses#same.
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2022
+    month: 8
+    day: 31
+  }
+}
