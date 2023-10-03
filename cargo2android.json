@@ -5,5 +5,19 @@
   ],
   "run": true,
   "vendor-available": true,
-  "features": "alloc,derive,flagset,oid,zeroize"
+  "features": "alloc,derive,flagset,oid,zeroize",
+  "variants": [
+    {
+    },
+    {
+      "device": true,
+      "alloc": true,
+      "no-host": true,
+      "add-module-block": "cargo2android_viz.bp",
+      "dependency_suffix": "_nostd",
+      "force-rlib": true,
+      "suffix": "_nostd",
+      "no-std": true
+    }
+  ]
 }
